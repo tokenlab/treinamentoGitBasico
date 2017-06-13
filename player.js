@@ -11,6 +11,7 @@ class Player {
   //TODO: Add Pause()
   pause(){
     console.log('Paused');
+    this.state = 'PAUSED';
   }
 
   //TODO: Add Stop()
