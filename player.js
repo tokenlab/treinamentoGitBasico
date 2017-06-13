@@ -6,6 +6,7 @@ class Player {
   }
   play(){
     console.log('Playing '+this.currentSong);
+    this.state = 'PLAYING';
   }
   //TODO: Add Pause()
   pause(){
